@@ -1,19 +1,2 @@
-# Executáveis e arquivos de compilação
 *.exe
-*.out
 *.o
-*.obj
-build/
-bin/
-Debug/
-Release/
-
-# Arquivos do VS Code (mantemos apenas as configurações compartilháveis)
-.vscode/*.user
-.vscode/*.log
-
-# Arquivos temporários
-*.tmp
-*.swp
-*.swo
-
