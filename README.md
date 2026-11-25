@@ -66,6 +66,30 @@ O trabalho está dividido em três partes. Cada integrante cuida de uma, mas **t
 - Opção inválida no menu: o `default` do `switch` avisa e volta ao menu.
 - Rodar o checklist de testes inteiro antes da entrega e anotar o que falhar.
 
+### Ordem de trabalho
+
+1. A Parte 1 sobe primeiro o esqueleto com o menu funcionando e as funções vazias.
+2. Depois, cada um preenche a sua função. Como o código é um arquivo só, sempre fazer `git pull` antes de começar e `git push` logo que terminar, para não sobrescrever o trabalho do outro.
+3. Com a base pronta e testada, partir para os bônus.
+
+## Progresso
+
+Atualizar esta lista sempre que terminar uma tarefa (trocar ⬜ por ✅).
+
+| Tarefa | Responsável | Status |
+| --- | --- | --- |
+| README e organização do repositório | João Alexandre | ✅ |
+| Menu em laço com `switch` | João Alexandre | ✅ |
+| Opção inválida no menu (`default`) | João Alexandre | ✅ |
+| Esqueleto das funções (`cadastrar`, `consultar`, `listar`, `excluir`) | João Alexandre | ✅ |
+| Função `excluir` | João Alexandre | ⬜ |
+| Função `cadastrar` (com `Agenda cheia`) | João Vitor | ⬜ |
+| Função `consultar` (com nomes repetidos e `Contato nao encontrado`) | João Vitor | ⬜ |
+| Função `listar` (com agenda vazia) | Jeovana | ⬜ |
+| Rodar o checklist de testes completo | Jeovana | ⬜ |
+| Criar o projeto `agenda.dev` no Dev-C++ | João Alexandre | ⬜ |
+| Todos revisarem o código inteiro para o teste de autoria | Todos | ⬜ |
+
 ## Como compilar e executar
 
 Abra o arquivo `agenda.c` (ou o projeto `agenda.dev`) no Dev-C++ e use **Executar → Compilar & Executar** (`F11`). O código compila no Dev-C++ como vem instalado, sem mudar nenhuma configuração.
